@@ -1,317 +1,370 @@
-# Awesome-Virtual-Private-Cloud-Vpc-Networking
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Virtual Private Cloud VPC Networking Banner" width="100%" />
+</p>
 
-## Top Virtual Private Cloud (VPC) Networking Ecosystem
+# 🚀 Awesome Virtual Private Cloud (VPC) Networking & Cloud Isolation Ecosystem 🌐
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+> **A curated showcase of commercial SaaS VPC platforms ☁️, self-hosted Overlay Networks 🛡️, Software-Defined Networking (SDN) controllers ⚡, eBPF CNIs 🐝, and Infrastructure as Code (IaC) tools 🛠️.**  
+> *Engineered for Cloud Architects 🏗️, Site Reliability Engineers (SREs) ⚙️, Network Engineers 🔌, and DevOps teams seeking network isolation and multi-cloud sovereignty.*
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Cloud Network Isolation, Overlay Networking & Self-Hosted SDN*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial VPC platforms** and **open-source projects** that create isolated, private networks within public clouds and self-hosted infrastructure. These tools provide network segmentation, routing, firewalling, and connectivity between cloud resources — the foundation of cloud security architecture.
-
-
-
-**Examples** include Amazon VPC, Azure Virtual Network, Google Cloud VPC, DigitalOcean VPC, Linode Cloud VPC, Vultr VPC 2.0, OVHcloud vRack, Scaleway Private Networks, Hetzner Cloud Networks, and Alibaba Cloud VPC (the category leaders).
-
-
-
-**Open-source emphasis**: VPC networking is a strong open-source domain. **Open vSwitch** and **OVN** provide the virtual switching and logical networking foundation. **Cilium** and **Calico** bring eBPF-based networking and security to Kubernetes. **Netmaker**, **NetBird**, **Tailscale**, and **Headscale** deliver WireGuard-based overlay networks. **ZeroTier** provides multi-cloud SDN. This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Amazon VPC](https://aws.amazon.com/vpc/)**  
-
-  **The reference implementation for cloud VPC** — full control over IP addressing, subnets, route tables, and gateways. **The industry standard** with extensive third-party tooling and documentation.
-
-
-
-- **[Azure Virtual Network](https://azure.microsoft.com/en-us/products/virtual-network/)**  
-
-  Microsoft's foundational VPC service — isolated network segments with subnets, NSGs, and peering. **Native integration with Azure services and hybrid connectivity** via VPN Gateway and ExpressRoute.
-
-
-
-- **[Google Cloud VPC](https://cloud.google.com/vpc)**  
-
-  GCP's global VPC with automatic subnet creation, global routing, and native integration with Google services. **Supports shared VPC** for multi-project organizations.
-
-
-
-- **[DigitalOcean VPC](https://www.digitalocean.com/products/vpc)**  
-
-  **Simple, free VPC networking** — private networking between Droplets in the same region. **Free with DigitalOcean** — no additional cost .
-
-
-
-- **[Linode Cloud VPC](https://www.linode.com/products/vpc/)**  
-
-  **Free VPC networking** — private network segments for Linode instances. **Free with Linode** — no additional cost .
-
-
-
-- **[Vultr VPC 2.0](https://www.vultr.com/features/vpc/)**  
-
-  Vultr's VPC networking — private networking across instances and regions. **Free with Vultr** .
-
-
-
-- **[OVHcloud vRack](https://www.ovhcloud.com/en/network/vrack/)**  
-
-  **Private network across OVHcloud products** — connect dedicated servers, VPS, and cloud instances. **The best for hybrid OVHcloud deployments** .
-
-
-
-- **[Scaleway Private Networks](https://www.scaleway.com/en/vpc/)**  
-
-  Scaleway's VPC — private networking with regional isolation. **Best for European data sovereignty** .
-
-
-
-- **[Hetzner Cloud Networks](https://www.hetzner.com/cloud)**  
-
-  **Private networking for Hetzner Cloud** — connect servers via private IPs. **Free with Hetzner Cloud** .
-
-
-
-- **[Alibaba Cloud VPC](https://www.alibabacloud.com/product/vpc)**  
-
-  Alibaba's VPC — isolated networks for Alibaba Cloud resources. **Best for Asia-Pacific deployments** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Overlay Networking (WireGuard-Based)
-
-
-
-- **[Netmaker](https://github.com/gravitl/netmaker)**  
-
-  **The leading open-source WireGuard-based Zero Trust networking platform**, Apache-2.0 licensed with **10,000+ GitHub stars** . **Creates flat, encrypted overlay networks** — every node is "next door" regardless of physical location . **Kernel WireGuard for superior performance** . **Gateways for traffic relaying, security policies with IDP integration, and egress routing** . **The de facto open-source VPC alternative for connecting distributed resources** . **Best for multi-cloud and hybrid cloud networking** .
-
-
-
-- **[NetBird](https://github.com/netbirdio/netbird)**  
-
-  **Open-source Zero Trust networking platform**, Apache-2.0 licensed . **WireGuard-based peer-to-peer overlay networks** . **Identity provider integration for granular access control** . **Self-hosted with admin dashboard** . **Best for teams wanting managed-like experience with full data ownership** .
-
-
-
-- **[Tailscale](https://github.com/tailscale/tailscale)**  
-
-  **The easiest WireGuard-based mesh VPN**, BSD-3-Clause licensed (client only; coordination server proprietary) . **Excellent NAT traversal, MagicDNS, ACLs, and SSO** . **Best for easy overlay networking** .
-
-
-
-- **[Headscale](https://github.com/juanfont/headscale)**  
-
-  **Self-hosted Tailscale control server**, BSD-3-Clause licensed . **Use Tailscale clients with your own coordination server** . **The best combination of speed, security, and vendor independence** . **Best for Tailscale without vendor dependency** .
-
-
-
-- **[ZeroTier](https://github.com/zerotier/ZeroTierOne)**  
-
-  **Multi-cloud SDN platform**, BSL 1.1 licensed (client open source; controller source-available) . **Custom protocol with strong NAT traversal** . **True self-hosting requires third-party controllers** . **Best for legacy SDN deployments** .
-
-
-
-- **[Gluetun](https://github.com/qdm12/gluetun)**  
-
-  **VPN client with WireGuard and OpenVPN support** — not VPC per se, but provides secure network connectivity . **Best for VPN connectivity** .
-
-
-
-### Virtual Switching & SDN
-
-
-
-- **[Open vSwitch](https://github.com/openvswitch/ovs)**  
-
-  **Production-quality multilayer virtual switch**, Apache-2.0 licensed . **The foundation for software-defined networking** — used by OpenStack, Kubernetes, and countless SDN projects . **Supports OpenFlow, VXLAN, GRE, and other tunneling protocols** . **The de facto standard for virtual switching** . **Best for building custom SDN infrastructure** .
-
-
-
-- **[OVN (Open Virtual Network)](https://github.com/ovn-org/ovn)**  
-
-  **Open-source logical network abstraction for Open vSwitch**, Apache-2.0 licensed . **Adds native support for virtual network abstractions** — logical switches, routers, and ACLs . **Used by OpenStack and Kubernetes** . **Best for cloud-native SDN** .
-
-
-
-- **[Cilium](https://github.com/cilium/cilium)**  
-
-  **eBPF-based networking, security, and observability for Kubernetes**, Apache-2.0 licensed with **20,000+ GitHub stars** . **The leading Kubernetes CNI** — provides network policies, service mesh, and multi-cluster networking . **Best for Kubernetes networking and security** .
-
-
-
-- **[Calico](https://github.com/projectcalico/calico)**  
-
-  **Open-source networking and security for containers and Kubernetes**, Apache-2.0 licensed . **Network policies, encryption, and observability** . **Best for Kubernetes networking** .
-
-
-
-- **[Flannel](https://github.com/flannel-io/flannel)**  
-
-  **Simple overlay network for Kubernetes**, Apache-2.0 licensed . **The simplest CNI** — VXLAN, host-gw, and wireguard backends . **Best for simple Kubernetes networking** .
-
-
-
-- **[Kube-OVN](https://github.com/kubeovn/kube-ovn)**  
-
-  **OVN-based Kubernetes networking**, Apache-2.0 licensed . **Advanced networking features** — subnets, QoS, and multi-tenancy . **Best for enterprise Kubernetes networking** .
-
-
-
-### Container Networking
-
-
-
-- **[Project Calico](https://github.com/projectcalico/calico)** — Already listed. **Enterprise-grade container networking** .
-
-
-
-- **[Antrea](https://github.com/antrea-io/antrea)**  
-
-  **Kubernetes networking with Open vSwitch**, Apache-2.0 licensed . **The most mature OVS-based CNI** . **Best for Kubernetes networking with OVS** .
-
-
-
-- **[Multus CNI](https://github.com/k8snetworkplumbingwg/multus-cni)**  
-
-  **Multiple network interfaces for Kubernetes pods**, Apache-2.0 licensed . **Attach multiple networks to pods** . **Best for multi-network Kubernetes** .
-
-
-
-- **[Submariner](https://github.com/submariner-io/submariner)**  
-
-  **Multi-cluster networking for Kubernetes**, Apache-2.0 licensed . **Connect pods and services across clusters** . **Best for multi-cluster Kubernetes** .
-
-
-
-### Infrastructure as Code for VPC
-
-
-
-- **[Terraform](https://github.com/hashicorp/terraform)**  
-
-  **Infrastructure as Code standard**, MPL-2.0 licensed . **Provision VPC across providers** — AWS, Azure, GCP, DigitalOcean, and more . **The de facto IaC tool** .
-
-
-
-- **[OpenTofu](https://github.com/opentofu/opentofu)**  
-
-  **Open-source Terraform fork**, MPL-2.0 licensed . **Community-driven IaC** . **Best for Terraform without BSL concerns** .
-
-
-
-- **[Pulumi](https://github.com/pulumi/pulumi)**  
-
-  **IaC with real programming languages**, Apache-2.0 licensed . **TypeScript, Python, Go, .NET** . **Best for developers wanting IaC in code** .
-
-
-
-- **[Ansible](https://github.com/ansible/ansible)**  
-
-  **Configuration management and automation**, GPL-3.0 licensed . **Configure VPC and network devices** . **Best for server configuration** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **OpenStack Neutron** — Networking-as-a-Service for OpenStack .
-
-- **OpenDaylight** — Open-source SDN controller .
-
-- **ONOS** — Open Network Operating System .
-
-- **FRRouting** — Open-source routing suite .
-
-- **BIRD** — Internet routing daemon .
-
-- **WireGuard** — Modern VPN protocol underlying most overlay networks .
-
-- **OpenVPN** — Veteran open-source VPN .
-
-- **strongSwan** — IPsec VPN .
-
-- **Libreswan** — IPsec VPN .
-
-- **Tinc** — Mesh VPN daemon .
-
-
-
-**Frameworks for building custom VPC solutions**: Combine **Netmaker** for WireGuard-based overlay networking across clouds . Use **Open vSwitch** and **OVN** for building custom SDN infrastructure . Deploy **Cilium** or **Calico** for Kubernetes networking and security . Choose **Terraform** or **OpenTofu** for IaC provisioning . Integrate **Headscale** for self-hosted Tailscale . Note that true commercial VPC with global anycast, managed peering, and enterprise SLAs (AWS VPC, Azure VNet, GCP VPC) remains primarily commercial territory; open-source stacks provide strong overlay networking, virtual switching, and SDN foundations that require integration for complete cloud networking.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- VPC networking handles sensitive network traffic and access control. Self-hosted solutions require proper security hardening, key management, and access policy configuration.
-
-- **Commercial cloud VPCs are free** (AWS VPC, Azure VNet, GCP VPC, DigitalOcean VPC) — you pay for the resources within them, not the VPC itself . Open-source alternatives require infrastructure and operational expertise.
-
-- **Overlay networking introduces complexity** — NAT traversal, key management, and routing require understanding. Netmaker and NetBird simplify but don't eliminate operational responsibility .
-
-- **Kubernetes CNI choice matters** — Cilium, Calico, and Antrea have different performance and feature profiles. Evaluate against your requirements .
-
-- The open-source ecosystem provides strong overlay networking, virtual switching, and SDN foundations, but **global anycast, managed peering, and enterprise SLAs** remain primarily commercial offerings.
-
-
+🗓️ **Last updated: October 2026**
 
 ---
 
+## 📖 Overview & SEO Guide
 
+**Virtual Private Cloud (VPC) Networking** 🔒 is the core foundational layer of cloud security architecture. It provides isolated virtual networks, subnetting, custom routing, security group firewalls, overlay encryption (WireGuard, IPsec), and gateway routing across public clouds and self-hosted environments.
 
-**Made for network engineers, cloud architects, and organizations seeking VPC networking sovereignty.**  
+This repository catalogs top **commercial VPC cloud providers** 🏛️ alongside **open-source networking projects** 🔓, categorized and sorted by company valuation/market cap and GitHub community traction (star count).
 
-Let's make virtual private cloud networking more open, transparent, and accessible.
+### 🏷️ Key Keywords & Topics Covered
+`virtual-private-cloud` • `vpc-networking` • `cloud-networking` • `overlay-network` • `software-defined-networking` • `ebpf` • `wireguard-vpn` • `kubernetes-cni` • `multi-cloud-networking` • `zero-trust-network`
+
+---
+
+## 📋 Table of Contents
+- [☁️ SaaS & Commercial VPC Platforms](#%EF%B8%8F-saas--commercial-vpc-platforms)
+- [🔓 Open-Source GitHub Projects (Sorted by Stars)](#-open-source-github-projects-sorted-by-stars)
+- [🏗️ Frameworks for Custom VPC Architecture](#%EF%B8%8F-frameworks-for-custom-vpc-architecture)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer & Security Considerations](#%EF%B8%8F-disclaimer--security-considerations)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+
+---
+
+## ☁️ SaaS & Commercial VPC Platforms
+
+> [!NOTE]
+> 📊 **Market Size & Industry Structure**: The global Virtual Private Cloud (VPC) & Cloud Networking market is estimated at **$14.2 Billion to $38.5 Billion** (within the broader $1.1+ Trillion cloud infrastructure market) growing at a **16% – 22% CAGR**. The sector exhibits **high market concentration at the top** (hyperscalers AWS, Microsoft Azure, and Google Cloud control over **65% of global cloud infrastructure**), while remaining **moderately fragmented across specialized cloud providers** (DigitalOcean, Linode, Hetzner, Scaleway) and third-party multi-cloud overlay network vendors.
+
+| Provider / Platform | 🏢 Company Valuation / Market Cap | 💵 Starting Tier Pricing | 🎁 Free Tier / Free Trial Limit | 🎯 Core Strengths & Use Cases |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Virtual Network](https://azure.microsoft.com/en-us/products/virtual-network/)** 🔷 | **$3.30 Trillion** *(Microsoft Corp.)* | Free base VNet creation; NAT Gateway $0.045/hr + $0.045/GB; VNet Peering $0.01/GB | $200 free credit (30 days) + 100 GB/mo outbound data transfer free forever | Enterprise hybrid cloud, native integration with Azure services, NSGs, and ExpressRoute |
+| **[Amazon VPC](https://aws.amazon.com/vpc/)** 🟧 | **$3.05 Trillion** *(Amazon.com, Inc.)* | Free base VPC creation & route tables; NAT Gateway $0.045/hr + $0.045/GB; Public IPv4 $0.005/hr | $200 free credit for new users + 100 GB/mo outbound data transfer free across services | Industry-standard public cloud VPC, maximum ecosystem tooling, Transit Gateway |
+| **[Google Cloud VPC](https://cloud.google.com/vpc)** 🔴 | **$2.50 Trillion** *(Alphabet Inc.)* | Free base VPC network creation; Cloud NAT $0.045/hr + $0.045/GB; Inter-zone data $0.01/GB | $300 free trial credit (90 days) + 100 GB/mo egress free to most worldwide destinations | Global single-VPC architecture, Shared VPC multi-project governance, native Andromeda SDN |
+| **[Alibaba Cloud VPC](https://www.alibabacloud.com/product/vpc)** 🟧 | **$240.00 Billion** *(Alibaba Group)* | Free base VPC & subnet creation; NAT Gateway $0.057/hr + $0.035/GB data processing fee | $300–$1,000 free trial credits for new enterprise accounts valid for 30–60 days | Enterprise isolation optimized for Asia-Pacific cross-border cloud infrastructure |
+| **[Linode Cloud VPC](https://www.linode.com/products/vpc/)** 🟢 | **$15.00 Billion** *(Akamai Technologies)* | Free VPC network creation & subnets; Compute instances start at $5.00/mo (1 GB RAM, 1 TB transfer) | $100 free credit valid for 60 days for all new customer registrations | Developer-friendly cloud infrastructure with zero-cost private network segment isolation |
+| **[Scaleway Private Networks](https://www.scaleway.com/en/vpc/)** 🟣 | **$15.00 Billion** *(Iliad Group)* | Free up to 8 Private Networks per region; Managed NAT Gateway €0.012/hr (~$8.90/mo); Compute €0.0075/hr | €100 (~$110) free credit valid for 30 days for new user sign-ups | European data sovereignty-focused VPC with isolated private network attachments |
+| **[DigitalOcean VPC](https://www.digitalocean.com/products/vpc)** 🌊 | **$3.50 Billion** *(DigitalOcean Holdings)* | Free automatic VPC creation & intra-VPC data transfer; Droplet instances start at $4.00/mo | $200 free credit valid for 60 days for all new accounts | Simple, zero-configuration private networking between Droplets within the same region |
+| **[OVHcloud vRack](https://www.ovhcloud.com/en/network/vrack/)** 🔵 | **$1.80 Billion** *(OVH Groupe SAS)* | Free vRack private cross-datacenter interconnection included; Public Cloud from €3.50/mo (~$4.20/mo) | €200 (~$220) free Public Cloud trial credit valid for 1 month | Multi-datacenter private interconnection between Bare Metal, Private Cloud & Public Cloud |
+| **[Vultr VPC 2.0](https://www.vultr.com/features/vpc/)** 🟦 | **$1.00 Billion** *(Constant Company LLC)* | Free intra-region VPC 2.0 private networking; Instance pricing starts at $2.50/mo (IPv6) / $3.50/mo (IPv4) | $250 free trial credit valid for 30 days for new user registrations | High-performance regional private networking with instant private IP range allocation |
+| **[Hetzner Cloud Networks](https://www.hetzner.com/cloud)** 🔴 | **$500.00 Million** *(Hetzner Online GmbH)* | Free private network attachments; Cloud servers start at €3.29/mo (~$3.60/mo); Primary IPv4 €0.60/mo | €20 free promotional credit / 14-day money-back guarantee for new accounts | Ultra cost-effective European cloud hosting with private IP network isolation |
+
+---
+
+## 🔓 Open-Source GitHub Projects (Sorted by Stars)
+
+Below is the complete curated catalog of open-source VPC, overlay networking, virtual switching, eBPF CNI, and Infrastructure as Code projects, **sorted strictly in descending order by GitHub star count**.
+
+### **[ansible](https://github.com/ansible/ansible)** [![GitHub stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers)
+
+- 📦 **Repository**: [`ansible/ansible`](https://github.com/ansible/ansible)
+- 🏷️ **Category**: `Infrastructure as Code & Network Automation 🛠️` | 📜 **License**: `GPL-3.0` | ⭐ **GitHub Stars**: `★ 70,863`
+- 📝 **Description**: **Automation and configuration management platform** for provisioning VPC networks, virtual routers, cloud security groups, and enterprise hardware switches across multi-cloud environments.
+
+---
+
+### **[terraform](https://github.com/hashicorp/terraform)** [![GitHub stars](https://img.shields.io/github/stars/hashicorp/terraform?style=social&color=white)](https://github.com/hashicorp/terraform/stargazers)
+
+- 📦 **Repository**: [`hashicorp/terraform`](https://github.com/hashicorp/terraform)
+- 🏷️ **Category**: `Infrastructure as Code (IaC) 🏗️` | 📜 **License**: `MPL-2.0 / BSL` | ⭐ **GitHub Stars**: `★ 49,830`
+- 📝 **Description**: **The de facto Infrastructure as Code standard** for declarative provisioning of Virtual Private Clouds, subnets, route tables, internet gateways, and security policies across AWS, Azure, GCP, and custom providers.
+
+---
+
+### **[headscale](https://github.com/juanfont/headscale)** [![GitHub stars](https://img.shields.io/github/stars/juanfont/headscale?style=social&color=white)](https://github.com/juanfont/headscale/stargazers)
+
+- 📦 **Repository**: [`juanfont/headscale`](https://github.com/juanfont/headscale)
+- 🏷️ **Category**: `Self-Hosted Overlay Mesh VPN 🛡️` | 📜 **License**: `BSD-3-Clause` | ⭐ **GitHub Stars**: `★ 44,372`
+- 📝 **Description**: **Open-source, self-hosted implementation of the Tailscale control server.** Enables full vendor independence while running official Tailscale clients across custom WireGuard mesh VPC networks.
+
+---
+
+### **[tailscale](https://github.com/tailscale/tailscale)** [![GitHub stars](https://img.shields.io/github/stars/tailscale/tailscale?style=social&color=white)](https://github.com/tailscale/tailscale/stargazers)
+
+- 📦 **Repository**: [`tailscale/tailscale`](https://github.com/tailscale/tailscale)
+- 🏷️ **Category**: `WireGuard Mesh VPN & Overlay Network 🌐` | 📜 **License**: `BSD-3-Clause (Client)` | ⭐ **GitHub Stars**: `★ 37,174`
+- 📝 **Description**: **Zero-config WireGuard mesh VPN** providing MagicDNS, NAT traversal, granular access control lists (ACLs), and single sign-on (SSO) integration for instant multi-cloud overlay networking.
+
+---
+
+### **[opentofu](https://github.com/opentofu/opentofu)** [![GitHub stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)
+
+- 📦 **Repository**: [`opentofu/opentofu`](https://github.com/opentofu/opentofu)
+- 🏷️ **Category**: `Infrastructure as Code (Open Source) 🔓` | 📜 **License**: `MPL-2.0` | ⭐ **GitHub Stars**: `★ 30,393`
+- 📝 **Description**: **Community-driven open-source fork of Terraform**, managed under the Linux Foundation. Ideal for declaratively defining VPC subnets, routing, and cloud infrastructure without commercial license restrictions.
+
+---
+
+### **[netbird](https://github.com/netbirdio/netbird)** [![GitHub stars](https://img.shields.io/github/stars/netbirdio/netbird?style=social&color=white)](https://github.com/netbirdio/netbird/stargazers)
+
+- 📦 **Repository**: [`netbirdio/netbird`](https://github.com/netbirdio/netbird)
+- 🏷️ **Category**: `Zero Trust Overlay Network 🔒` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 29,763`
+- 📝 **Description**: **Open-source Zero Trust networking platform** built on WireGuard. Features automated peer-to-peer overlay mesh generation, identity provider (IDP) integrations, and self-hosted admin dashboard.
+
+---
+
+### **[pulumi](https://github.com/pulumi/pulumi)** [![GitHub stars](https://img.shields.io/github/stars/pulumi/pulumi?style=social&color=white)](https://github.com/pulumi/pulumi/stargazers)
+
+- 📦 **Repository**: [`pulumi/pulumi`](https://github.com/pulumi/pulumi)
+- 🏷️ **Category**: `Developer Infrastructure as Code 💻` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 25,760`
+- 📝 **Description**: **Infrastructure as Code tool using real programming languages** (TypeScript, Python, Go, C#). Declaratively orchestrate cloud VPCs, network security rules, and subnets in software code.
+
+---
+
+### **[cilium](https://github.com/cilium/cilium)** [![GitHub stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)
+
+- 📦 **Repository**: [`cilium/cilium`](https://github.com/cilium/cilium)
+- 🏷️ **Category**: `eBPF Kubernetes CNI & Security 🐝` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 25,609`
+- 📝 **Description**: **The premier eBPF-powered Kubernetes networking, security, and observability project.** Replaces kube-proxy with high-performance eBPF packet routing, multi-cluster VPC mesh, and L7 transparent encryption.
+
+---
+
+### **[nebula](https://github.com/slackhq/nebula)** [![GitHub stars](https://img.shields.io/github/stars/slackhq/nebula?style=social&color=white)](https://github.com/slackhq/nebula/stargazers)
+
+- 📦 **Repository**: [`slackhq/nebula`](https://github.com/slackhq/nebula)
+- 🏷️ **Category**: `Scalable Mesh Overlay Network 🌌` | 📜 **License**: `MIT` | ⭐ **GitHub Stars**: `★ 18,415`
+- 📝 **Description**: **Mutually authenticated, zero-trust overlay network** created by Slack. Connects hosts anywhere on the internet with encrypted peer-to-peer IP tunnels and built-in firewall rules.
+
+---
+
+### **[ZeroTierOne](https://github.com/zerotier/ZeroTierOne)** [![GitHub stars](https://img.shields.io/github/stars/zerotier/ZeroTierOne?style=social&color=white)](https://github.com/zerotier/ZeroTierOne/stargazers)
+
+- 📦 **Repository**: [`zerotier/ZeroTierOne`](https://github.com/zerotier/ZeroTierOne)
+- 🏷️ **Category**: `Multi-Cloud Software Defined Network (SDN) ⚡` | 📜 **License**: `BSL 1.1 / Open Source` | ⭐ **GitHub Stars**: `★ 17,158`
+- 📝 **Description**: **Virtual ethernet switch for the whole world.** Creates peer-to-peer virtual local area networks (VLANs) and multi-cloud overlay VPC networks across physical and virtual hosts.
+
+---
+
+### **[cloudflared](https://github.com/cloudflare/cloudflared)** [![GitHub stars](https://img.shields.io/github/stars/cloudflare/cloudflared?style=social&color=white)](https://github.com/cloudflare/cloudflared/stargazers)
+
+- 📦 **Repository**: [`cloudflare/cloudflared`](https://github.com/cloudflare/cloudflared)
+- 🏷️ **Category**: `Cloudflare Zero Trust Tunnel Daemon 🚇` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 16,035`
+- 📝 **Description**: **Cloudflare Tunnel client daemon** that connects private VPC network resources directly to Cloudflare's edge network without opening inbound public ports or public IPv4 addresses.
+
+---
+
+### **[gluetun](https://github.com/passteque/gluetun)** [![GitHub stars](https://img.shields.io/github/stars/passteque/gluetun?style=social&color=white)](https://github.com/passteque/gluetun/stargazers)
+
+- 📦 **Repository**: [`passteque/gluetun`](https://github.com/passteque/gluetun)
+- 🏷️ **Category**: `Lightweight Network Gateway & VPN Client 🐳` | 📜 **License**: `MIT` | ⭐ **GitHub Stars**: `★ 15,717`
+- 📝 **Description**: **Lightweight Docker container network gateway** supporting WireGuard and OpenVPN protocols. Provides secure network egress isolation and routing for self-hosted container stacks.
+
+---
+
+### **[openvpn](https://github.com/OpenVPN/openvpn)** [![GitHub stars](https://img.shields.io/github/stars/OpenVPN/openvpn?style=social&color=white)](https://github.com/OpenVPN/openvpn/stargazers)
+
+- 📦 **Repository**: [`OpenVPN/openvpn`](https://github.com/OpenVPN/openvpn)
+- 🏷️ **Category**: `Enterprise Virtual Private Network 🔑` | 📜 **License**: `GPL-2.0` | ⭐ **GitHub Stars**: `★ 14,643`
+- 📝 **Description**: **The industry-standard open-source SSL/TLS VPN daemon.** Securely bridges remote clients and enterprise branch offices directly into private VPC network subnets.
+
+---
+
+### **[netmaker](https://github.com/gravitl/netmaker)** [![GitHub stars](https://img.shields.io/github/stars/gravitl/netmaker?style=social&color=white)](https://github.com/gravitl/netmaker/stargazers)
+
+- 📦 **Repository**: [`gravitl/netmaker`](https://github.com/gravitl/netmaker)
+- 🏷️ **Category**: `WireGuard Multi-Cloud Overlay VPC 🚀` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 11,819`
+- 📝 **Description**: **Leading open-source platform for WireGuard-based Zero Trust overlay networks.** Delivers kernel-level WireGuard mesh performance, external gateway ingress/egress routing, and cross-cloud VPC bridging.
+
+---
+
+### **[flannel](https://github.com/flannel-io/flannel)** [![GitHub stars](https://img.shields.io/github/stars/flannel-io/flannel?style=social&color=white)](https://github.com/flannel-io/flannel/stargazers)
+
+- 📦 **Repository**: [`flannel-io/flannel`](https://github.com/flannel-io/flannel)
+- 🏷️ **Category**: `Container Network Interface (CNI) ☸️` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 9,547`
+- 📝 **Description**: **Simple, lightweight overlay network provider for Kubernetes.** Allocates layer 3 network subnets per host using VXLAN, host-gw, or WireGuard encapsulations.
+
+---
+
+### **[firezone](https://github.com/firezone/firezone)** [![GitHub stars](https://img.shields.io/github/stars/firezone/firezone?style=social&color=white)](https://github.com/firezone/firezone/stargazers)
+
+- 📦 **Repository**: [`firezone/firezone`](https://github.com/firezone/firezone)
+- 🏷️ **Category**: `Zero Trust Remote Access & WireGuard 🔥` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 9,108`
+- 📝 **Description**: **Open-source remote access platform built on WireGuard.** Provides secure, identity-aware access controls for connecting remote engineers to internal VPC workloads.
+
+---
+
+### **[calico](https://github.com/projectcalico/calico)** [![GitHub stars](https://img.shields.io/github/stars/projectcalico/calico?style=social&color=white)](https://github.com/projectcalico/calico/stargazers)
+
+- 📦 **Repository**: [`projectcalico/calico`](https://github.com/projectcalico/calico)
+- 🏷️ **Category**: `Kubernetes Networking & Security 🐅` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 7,383`
+- 📝 **Description**: **Enterprise container networking and network security provider.** Delivers high-performance BGP/eBPF pod routing, fine-grained network policy enforcement, and WireGuard in-transit encryption.
+
+---
+
+### **[frr](https://github.com/FRRouting/frr)** [![GitHub stars](https://img.shields.io/github/stars/FRRouting/frr?style=social&color=white)](https://github.com/FRRouting/frr/stargazers)
+
+- 📦 **Repository**: [`FRRouting/frr`](https://github.com/FRRouting/frr)
+- 🏷️ **Category**: `Open Source IP Routing Suite 🔀` | 📜 **License**: `GPL-2.0` | ⭐ **GitHub Stars**: `★ 4,315`
+- 📝 **Description**: **IP routing protocol suite for Linux and Unix platforms.** Implements BGP, OSPF, RIP, IS-IS, and LDP — used extensively in cloud VPC gateways, BGP router appliances, and SDN fabrics.
+
+---
+
+### **[ovs](https://github.com/openvswitch/ovs)** [![GitHub stars](https://img.shields.io/github/stars/openvswitch/ovs?style=social&color=white)](https://github.com/openvswitch/ovs/stargazers)
+
+- 📦 **Repository**: [`openvswitch/ovs`](https://github.com/openvswitch/ovs)
+- 🏷️ **Category**: `Multilayer Virtual Switch 🎛️` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 4,024`
+- 📝 **Description**: **Production-quality multilayer virtual switch.** The software-defined networking foundation for OpenStack, Kubernetes CNIs, and enterprise hypervisors; supports OpenFlow, VXLAN, and GRE.
+
+---
+
+### **[strongswan](https://github.com/strongswan/strongswan)** [![GitHub stars](https://img.shields.io/github/stars/strongswan/strongswan?style=social&color=white)](https://github.com/strongswan/strongswan/stargazers)
+
+- 📦 **Repository**: [`strongswan/strongswan`](https://github.com/strongswan/strongswan)
+- 🏷️ **Category**: `IPsec VPN & Security Gateway 🦅` | 📜 **License**: `GPL-2.0` | ⭐ **GitHub Stars**: `★ 2,999`
+- 📝 **Description**: **Open-source IPsec-based VPN solution.** Implements IKEv1/IKEv2 protocols to establish secure, hardware-accelerated site-to-site IPsec tunnels between corporate datacenters and cloud VPCs.
+
+---
+
+### **[multus-cni](https://github.com/k8snetworkplumbingwg/multus-cni)** [![GitHub stars](https://img.shields.io/github/stars/k8snetworkplumbingwg/multus-cni?style=social&color=white)](https://github.com/k8snetworkplumbingwg/multus-cni/stargazers)
+
+- 📦 **Repository**: [`k8snetworkplumbingwg/multus-cni`](https://github.com/k8snetworkplumbingwg/multus-cni)
+- 🏷️ **Category**: `Multi-Network Interface CNI Plugin 🔌` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 2,958`
+- 📝 **Description**: **Kubernetes CNI plugin enabling multi-homed pods.** Allows attaching multiple physical or virtual network interfaces (SR-IOV, macvlan, OVS) directly to single Kubernetes pods.
+
+---
+
+### **[submariner](https://github.com/submariner-io/submariner)** [![GitHub stars](https://img.shields.io/github/stars/submariner-io/submariner?style=social&color=white)](https://github.com/submariner-io/submariner/stargazers)
+
+- 📦 **Repository**: [`submariner-io/submariner`](https://github.com/submariner-io/submariner)
+- 🏷️ **Category**: `Multi-Cluster Kubernetes Networking ⚓` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 2,697`
+- 📝 **Description**: **Enables direct pod-to-pod and service-to-service networking** across independent Kubernetes clusters running in distinct VPC environments or multi-cloud regions.
+
+---
+
+### **[plugins](https://github.com/containernetworking/plugins)** [![GitHub stars](https://img.shields.io/github/stars/containernetworking/plugins?style=social&color=white)](https://github.com/containernetworking/plugins/stargazers)
+
+- 📦 **Repository**: [`containernetworking/plugins`](https://github.com/containernetworking/plugins)
+- 🏷️ **Category**: `Standard CNI Network Plugins 🧩` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 2,579`
+- 📝 **Description**: **Reference Container Network Interface (CNI) plugins** maintained by the CNCF, including bridge, macvlan, ipvlan, loopback, portmap, and firewall plugins.
+
+---
+
+### **[kube-ovn](https://github.com/kubeovn/kube-ovn)** [![GitHub stars](https://img.shields.io/github/stars/kubeovn/kube-ovn?style=social&color=white)](https://github.com/kubeovn/kube-ovn/stargazers)
+
+- 📦 **Repository**: [`kubeovn/kube-ovn`](https://github.com/kubeovn/kube-ovn)
+- 🏷️ **Category**: `Enterprise OVN-Based Kubernetes CNI 🏢` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 2,399`
+- 📝 **Description**: **Enterprise-grade Kubernetes CNI powered by Open Virtual Network (OVN).** Brings advanced SDN capabilities—subnet management, static IP allocation, QoS, traffic mirroring, and multi-tenancy—to Kubernetes.
+
+---
+
+### **[antrea](https://github.com/antrea-io/antrea)** [![GitHub stars](https://img.shields.io/github/stars/antrea-io/antrea?style=social&color=white)](https://github.com/antrea-io/antrea/stargazers)
+
+- 📦 **Repository**: [`antrea-io/antrea`](https://github.com/antrea-io/antrea)
+- 🏷️ **Category**: `OVS-Native Kubernetes Networking 🐜` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 1,812`
+- 📝 **Description**: **Kubernetes networking provider built natively on Open vSwitch (OVS).** Delivers high-performance pod network connectivity and Kubernetes Network Policy execution across Linux and Windows nodes.
+
+---
+
+### **[neutron](https://github.com/openstack/neutron)** [![GitHub stars](https://img.shields.io/github/stars/openstack/neutron?style=social&color=white)](https://github.com/openstack/neutron/stargazers)
+
+- 📦 **Repository**: [`openstack/neutron`](https://github.com/openstack/neutron)
+- 🏷️ **Category**: `OpenStack Networking-as-a-Service ☁️` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 1,471`
+- 📝 **Description**: **OpenStack cloud networking project.** Provides Network-as-a-Service (NaaS) abstractions for creating virtual networks, subnets, routers, floating IPs, and security groups in private clouds.
+
+---
+
+### **[ovn](https://github.com/ovn-org/ovn)** [![GitHub stars](https://img.shields.io/github/stars/ovn-org/ovn?style=social&color=white)](https://github.com/ovn-org/ovn/stargazers)
+
+- 📦 **Repository**: [`ovn-org/ovn`](https://github.com/ovn-org/ovn)
+- 🏷️ **Category**: `Open Virtual Network SDN Abstraction 💡` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 739`
+- 📝 **Description**: **Open Virtual Network (OVN) logical networking system for Open vSwitch.** Translates high-level logical routers, switches, and ACL rules into OpenFlow flows across virtualized cloud infrastructure.
+
+---
+
+### **[controller](https://github.com/opendaylight/controller)** [![GitHub stars](https://img.shields.io/github/stars/opendaylight/controller?style=social&color=white)](https://github.com/opendaylight/controller/stargazers)
+
+- 📦 **Repository**: [`opendaylight/controller`](https://github.com/opendaylight/controller)
+- 🏷️ **Category**: `Modular Software-Defined Network Controller 🕹️` | 📜 **License**: `EPL-1.0` | ⭐ **GitHub Stars**: `★ 479`
+- 📝 **Description**: **Open-source SDN controller framework.** Provides automated, programmable control over software and hardware network switches using OpenFlow and NETCONF protocols.
+
+---
+
+### **[bird](https://github.com/CZ-NIC/bird)** [![GitHub stars](https://img.shields.io/github/stars/CZ-NIC/bird?style=social&color=white)](https://github.com/CZ-NIC/bird/stargazers)
+
+- 📦 **Repository**: [`CZ-NIC/bird`](https://github.com/CZ-NIC/bird)
+- 🏷️ **Category**: `Internet Routing Daemon 🦅` | 📜 **License**: `GPL-2.0` | ⭐ **GitHub Stars**: `★ 222`
+- 📝 **Description**: **Dynamic IP routing daemon** implementing BGP, OSPF, and RIP. Used in cloud internet exchange points (IXPs), container networking control planes, and VPC border router gateways.
+
+---
+
+## 🏗️ Frameworks for Custom VPC Architecture
+
+When building a self-hosted or hybrid Virtual Private Cloud solution, architectural best practices recommend combining specialized open-source layers:
+
+```
++-----------------------------------------------------------------------+
+|                    Infrastructure as Code (IaC)                       |
+|                 (Terraform / OpenTofu / Pulumi / Ansible)             |
++-----------------------------------------------------------------------+
+                                    |
++-----------------------------------------------------------------------+
+|                   Overlay Mesh & Zero Trust VPN                       |
+|               (Netmaker / NetBird / Tailscale / Headscale)            |
++-----------------------------------------------------------------------+
+                                    |
++-----------------------------------------------------------------------+
+|                   Kubernetes CNI & eBPF Security                      |
+|                      (Cilium / Calico / Kube-OVN)                     |
++-----------------------------------------------------------------------+
+                                    |
++-----------------------------------------------------------------------+
+|                  Virtual Switching & SDN Substrate                    |
+|                      (Open vSwitch / OVN / FRRouting)                 |
++-----------------------------------------------------------------------+
+```
+
+1. 🌐 **Overlay Network Layer**: Utilize **Netmaker** or **NetBird** to establish high-speed kernel WireGuard peer-to-peer mesh connectivity across heterogeneous public and private clouds.
+2. 🎛️ **Virtual Switching Layer**: Deploy **Open vSwitch (OVS)** combined with **OVN** for logical switch, router, and ACL encapsulation within hypervisors and bare-metal nodes.
+3. 🐝 **Container Security Layer**: Implement **Cilium** for eBPF-powered Kubernetes network isolation, transparent L7 security policies, and multi-cluster routing.
+4. 🛠️ **Provisioning Layer**: Use **OpenTofu** or **Terraform** for reproducible infrastructure state management and cloud resource lifecycle control.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions from cloud engineers, network architects, and the open-source community!
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add or update** entries in `README.md` keeping formatting consistent.
+   - For **SaaS platforms**: include provider name, company size/valuation, exact starting tier price, exact free tier limit, and key strengths.
+   - For **Open-Source projects**: include repository URL, star badge with `style=social&color=white` linking to `/stargazers`, license, and exact star count position.
+3. 🚀 **Submit a Pull Request (PR)** with a clear title and brief explanation of changes.
+
+---
+
+## ⚠️ Disclaimer & Security Considerations
+
+- 📌 **Community-Curated**: This repository is a community-maintained curated list and does not constitute an endorsement.
+- 🛡️ **Security Hardening**: Cloud VPCs and self-hosted VPN overlays handle sensitive network traffic. Ensure proper security group configuration, key rotation, and identity management policies are enforced.
+- 💰 **Cost Management**: While basic VPC creation is complimentary on major clouds (AWS, Azure, GCP), associated resources like NAT Gateways, Egress Data Transfer, and Elastic IPv4 addresses accrue hourly usage fees.
+
+---
+
+## 💖 Support & Community
+
+If you find this curated Virtual Private Cloud & Cloud Networking directory helpful, please consider supporting the project:
+
+- ⭐ **Star** this repository to help others discover it.
+- 🔀 **Fork** it to keep your own reference copy.
+- 📢 **Share** it with your network engineers, cloud architects, and SRE colleagues.
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-Buy%20Me%20A%20Coffee-ff69b4?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor / Buy Me A Coffee" /></a>
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Virtual-Private-Cloud-Vpc-Networking&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Virtual-Private-Cloud-Vpc-Networking&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Built with ❤️ for Cloud Architects, SREs, and Network Engineers worldwide.</b><br>
+  <i>Empowering virtual private cloud networking transparency, security, and open innovation.</i>
+</p>
