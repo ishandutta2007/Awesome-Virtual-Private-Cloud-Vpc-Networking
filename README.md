@@ -19,7 +19,7 @@
 
 **Virtual Private Cloud (VPC) Networking** 🔒 is the core foundational layer of cloud security architecture. It provides isolated virtual networks, subnetting, custom routing, security group firewalls, overlay encryption (WireGuard, IPsec), and gateway routing across public clouds and self-hosted environments.
 
-This repository catalogs top **commercial VPC cloud providers** 🏛️ alongside **open-source networking projects** 🔓, categorized and sorted by company valuation/market cap and GitHub community traction (star count).
+This repository catalogs top **commercial VPC cloud providers** 🏛️ alongside **open-source networking projects** 🔓, categorized and sorted by company valuation/market cap and GitHub community traction (Stars_Count).
 
 ### 🏷️ Key Keywords & Topics Covered
 `virtual-private-cloud` • `vpc-networking` • `cloud-networking` • `overlay-network` • `software-defined-networking` • `ebpf` • `wireguard-vpn` • `kubernetes-cni` • `multi-cloud-networking` • `zero-trust-network`
@@ -59,236 +59,236 @@ This repository catalogs top **commercial VPC cloud providers** 🏛️ alongsid
 
 ## 🔓 Open-Source GitHub Projects (Sorted by Stars)
 
-Below is the complete curated catalog of open-source VPC, overlay networking, virtual switching, eBPF CNI, and Infrastructure as Code projects, **sorted strictly in descending order by GitHub star count**.
+Below is the complete curated catalog of open-source VPC, overlay networking, virtual switching, eBPF CNI, and Infrastructure as Code projects, **sorted strictly in descending order by GitHub Stars_Count**.
 
-### **[ansible](https://github.com/ansible/ansible)** [![GitHub stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers)
+### **[ansible](https://github.com/ansible/ansible)** [![GitHub_Stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers)
 
 - 📦 **Repository**: [`ansible/ansible`](https://github.com/ansible/ansible)
-- 🏷️ **Category**: `Infrastructure as Code & Network Automation 🛠️` | 📜 **License**: `GPL-3.0` | ⭐ **GitHub Stars**: `★ 70,863`
+- 🏷️ **Category**: `Infrastructure as Code & Network Automation 🛠️` | 📜 **License**: `GPL-3.0` | ⭐ **GitHub_Stars**: `★ 70,863`
 - 📝 **Description**: **Automation and configuration management platform** for provisioning VPC networks, virtual routers, cloud security groups, and enterprise hardware switches across multi-cloud environments.
 
 ---
 
-### **[terraform](https://github.com/hashicorp/terraform)** [![GitHub stars](https://img.shields.io/github/stars/hashicorp/terraform?style=social&color=white)](https://github.com/hashicorp/terraform/stargazers)
+### **[terraform](https://github.com/hashicorp/terraform)** [![GitHub_Stars](https://img.shields.io/github/stars/hashicorp/terraform?style=social&color=white)](https://github.com/hashicorp/terraform/stargazers)
 
 - 📦 **Repository**: [`hashicorp/terraform`](https://github.com/hashicorp/terraform)
-- 🏷️ **Category**: `Infrastructure as Code (IaC) 🏗️` | 📜 **License**: `MPL-2.0 / BSL` | ⭐ **GitHub Stars**: `★ 49,830`
+- 🏷️ **Category**: `Infrastructure as Code (IaC) 🏗️` | 📜 **License**: `MPL-2.0 / BSL` | ⭐ **GitHub_Stars**: `★ 49,830`
 - 📝 **Description**: **The de facto Infrastructure as Code standard** for declarative provisioning of Virtual Private Clouds, subnets, route tables, internet gateways, and security policies across AWS, Azure, GCP, and custom providers.
 
 ---
 
-### **[headscale](https://github.com/juanfont/headscale)** [![GitHub stars](https://img.shields.io/github/stars/juanfont/headscale?style=social&color=white)](https://github.com/juanfont/headscale/stargazers)
+### **[headscale](https://github.com/juanfont/headscale)** [![GitHub_Stars](https://img.shields.io/github/stars/juanfont/headscale?style=social&color=white)](https://github.com/juanfont/headscale/stargazers)
 
 - 📦 **Repository**: [`juanfont/headscale`](https://github.com/juanfont/headscale)
-- 🏷️ **Category**: `Self-Hosted Overlay Mesh VPN 🛡️` | 📜 **License**: `BSD-3-Clause` | ⭐ **GitHub Stars**: `★ 44,372`
+- 🏷️ **Category**: `Self-Hosted Overlay Mesh VPN 🛡️` | 📜 **License**: `BSD-3-Clause` | ⭐ **GitHub_Stars**: `★ 44,372`
 - 📝 **Description**: **Open-source, self-hosted implementation of the Tailscale control server.** Enables full vendor independence while running official Tailscale clients across custom WireGuard mesh VPC networks.
 
 ---
 
-### **[tailscale](https://github.com/tailscale/tailscale)** [![GitHub stars](https://img.shields.io/github/stars/tailscale/tailscale?style=social&color=white)](https://github.com/tailscale/tailscale/stargazers)
+### **[tailscale](https://github.com/tailscale/tailscale)** [![GitHub_Stars](https://img.shields.io/github/stars/tailscale/tailscale?style=social&color=white)](https://github.com/tailscale/tailscale/stargazers)
 
 - 📦 **Repository**: [`tailscale/tailscale`](https://github.com/tailscale/tailscale)
-- 🏷️ **Category**: `WireGuard Mesh VPN & Overlay Network 🌐` | 📜 **License**: `BSD-3-Clause (Client)` | ⭐ **GitHub Stars**: `★ 37,174`
+- 🏷️ **Category**: `WireGuard Mesh VPN & Overlay Network 🌐` | 📜 **License**: `BSD-3-Clause (Client)` | ⭐ **GitHub_Stars**: `★ 37,174`
 - 📝 **Description**: **Zero-config WireGuard mesh VPN** providing MagicDNS, NAT traversal, granular access control lists (ACLs), and single sign-on (SSO) integration for instant multi-cloud overlay networking.
 
 ---
 
-### **[opentofu](https://github.com/opentofu/opentofu)** [![GitHub stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)
+### **[opentofu](https://github.com/opentofu/opentofu)** [![GitHub_Stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)
 
 - 📦 **Repository**: [`opentofu/opentofu`](https://github.com/opentofu/opentofu)
-- 🏷️ **Category**: `Infrastructure as Code (Open Source) 🔓` | 📜 **License**: `MPL-2.0` | ⭐ **GitHub Stars**: `★ 30,393`
+- 🏷️ **Category**: `Infrastructure as Code (Open Source) 🔓` | 📜 **License**: `MPL-2.0` | ⭐ **GitHub_Stars**: `★ 30,393`
 - 📝 **Description**: **Community-driven open-source fork of Terraform**, managed under the Linux Foundation. Ideal for declaratively defining VPC subnets, routing, and cloud infrastructure without commercial license restrictions.
 
 ---
 
-### **[netbird](https://github.com/netbirdio/netbird)** [![GitHub stars](https://img.shields.io/github/stars/netbirdio/netbird?style=social&color=white)](https://github.com/netbirdio/netbird/stargazers)
+### **[netbird](https://github.com/netbirdio/netbird)** [![GitHub_Stars](https://img.shields.io/github/stars/netbirdio/netbird?style=social&color=white)](https://github.com/netbirdio/netbird/stargazers)
 
 - 📦 **Repository**: [`netbirdio/netbird`](https://github.com/netbirdio/netbird)
-- 🏷️ **Category**: `Zero Trust Overlay Network 🔒` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 29,763`
+- 🏷️ **Category**: `Zero Trust Overlay Network 🔒` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 29,763`
 - 📝 **Description**: **Open-source Zero Trust networking platform** built on WireGuard. Features automated peer-to-peer overlay mesh generation, identity provider (IDP) integrations, and self-hosted admin dashboard.
 
 ---
 
-### **[pulumi](https://github.com/pulumi/pulumi)** [![GitHub stars](https://img.shields.io/github/stars/pulumi/pulumi?style=social&color=white)](https://github.com/pulumi/pulumi/stargazers)
+### **[pulumi](https://github.com/pulumi/pulumi)** [![GitHub_Stars](https://img.shields.io/github/stars/pulumi/pulumi?style=social&color=white)](https://github.com/pulumi/pulumi/stargazers)
 
 - 📦 **Repository**: [`pulumi/pulumi`](https://github.com/pulumi/pulumi)
-- 🏷️ **Category**: `Developer Infrastructure as Code 💻` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 25,760`
+- 🏷️ **Category**: `Developer Infrastructure as Code 💻` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 25,760`
 - 📝 **Description**: **Infrastructure as Code tool using real programming languages** (TypeScript, Python, Go, C#). Declaratively orchestrate cloud VPCs, network security rules, and subnets in software code.
 
 ---
 
-### **[cilium](https://github.com/cilium/cilium)** [![GitHub stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)
+### **[cilium](https://github.com/cilium/cilium)** [![GitHub_Stars](https://img.shields.io/github/stars/cilium/cilium?style=social&color=white)](https://github.com/cilium/cilium/stargazers)
 
 - 📦 **Repository**: [`cilium/cilium`](https://github.com/cilium/cilium)
-- 🏷️ **Category**: `eBPF Kubernetes CNI & Security 🐝` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 25,609`
+- 🏷️ **Category**: `eBPF Kubernetes CNI & Security 🐝` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 25,609`
 - 📝 **Description**: **The premier eBPF-powered Kubernetes networking, security, and observability project.** Replaces kube-proxy with high-performance eBPF packet routing, multi-cluster VPC mesh, and L7 transparent encryption.
 
 ---
 
-### **[nebula](https://github.com/slackhq/nebula)** [![GitHub stars](https://img.shields.io/github/stars/slackhq/nebula?style=social&color=white)](https://github.com/slackhq/nebula/stargazers)
+### **[nebula](https://github.com/slackhq/nebula)** [![GitHub_Stars](https://img.shields.io/github/stars/slackhq/nebula?style=social&color=white)](https://github.com/slackhq/nebula/stargazers)
 
 - 📦 **Repository**: [`slackhq/nebula`](https://github.com/slackhq/nebula)
-- 🏷️ **Category**: `Scalable Mesh Overlay Network 🌌` | 📜 **License**: `MIT` | ⭐ **GitHub Stars**: `★ 18,415`
+- 🏷️ **Category**: `Scalable Mesh Overlay Network 🌌` | 📜 **License**: `MIT` | ⭐ **GitHub_Stars**: `★ 18,415`
 - 📝 **Description**: **Mutually authenticated, zero-trust overlay network** created by Slack. Connects hosts anywhere on the internet with encrypted peer-to-peer IP tunnels and built-in firewall rules.
 
 ---
 
-### **[ZeroTierOne](https://github.com/zerotier/ZeroTierOne)** [![GitHub stars](https://img.shields.io/github/stars/zerotier/ZeroTierOne?style=social&color=white)](https://github.com/zerotier/ZeroTierOne/stargazers)
+### **[ZeroTierOne](https://github.com/zerotier/ZeroTierOne)** [![GitHub_Stars](https://img.shields.io/github/stars/zerotier/ZeroTierOne?style=social&color=white)](https://github.com/zerotier/ZeroTierOne/stargazers)
 
 - 📦 **Repository**: [`zerotier/ZeroTierOne`](https://github.com/zerotier/ZeroTierOne)
-- 🏷️ **Category**: `Multi-Cloud Software Defined Network (SDN) ⚡` | 📜 **License**: `BSL 1.1 / Open Source` | ⭐ **GitHub Stars**: `★ 17,158`
+- 🏷️ **Category**: `Multi-Cloud Software Defined Network (SDN) ⚡` | 📜 **License**: `BSL 1.1 / Open Source` | ⭐ **GitHub_Stars**: `★ 17,158`
 - 📝 **Description**: **Virtual ethernet switch for the whole world.** Creates peer-to-peer virtual local area networks (VLANs) and multi-cloud overlay VPC networks across physical and virtual hosts.
 
 ---
 
-### **[cloudflared](https://github.com/cloudflare/cloudflared)** [![GitHub stars](https://img.shields.io/github/stars/cloudflare/cloudflared?style=social&color=white)](https://github.com/cloudflare/cloudflared/stargazers)
+### **[cloudflared](https://github.com/cloudflare/cloudflared)** [![GitHub_Stars](https://img.shields.io/github/stars/cloudflare/cloudflared?style=social&color=white)](https://github.com/cloudflare/cloudflared/stargazers)
 
 - 📦 **Repository**: [`cloudflare/cloudflared`](https://github.com/cloudflare/cloudflared)
-- 🏷️ **Category**: `Cloudflare Zero Trust Tunnel Daemon 🚇` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 16,035`
+- 🏷️ **Category**: `Cloudflare Zero Trust Tunnel Daemon 🚇` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 16,035`
 - 📝 **Description**: **Cloudflare Tunnel client daemon** that connects private VPC network resources directly to Cloudflare's edge network without opening inbound public ports or public IPv4 addresses.
 
 ---
 
-### **[gluetun](https://github.com/passteque/gluetun)** [![GitHub stars](https://img.shields.io/github/stars/passteque/gluetun?style=social&color=white)](https://github.com/passteque/gluetun/stargazers)
+### **[gluetun](https://github.com/passteque/gluetun)** [![GitHub_Stars](https://img.shields.io/github/stars/passteque/gluetun?style=social&color=white)](https://github.com/passteque/gluetun/stargazers)
 
 - 📦 **Repository**: [`passteque/gluetun`](https://github.com/passteque/gluetun)
-- 🏷️ **Category**: `Lightweight Network Gateway & VPN Client 🐳` | 📜 **License**: `MIT` | ⭐ **GitHub Stars**: `★ 15,717`
+- 🏷️ **Category**: `Lightweight Network Gateway & VPN Client 🐳` | 📜 **License**: `MIT` | ⭐ **GitHub_Stars**: `★ 15,717`
 - 📝 **Description**: **Lightweight Docker container network gateway** supporting WireGuard and OpenVPN protocols. Provides secure network egress isolation and routing for self-hosted container stacks.
 
 ---
 
-### **[openvpn](https://github.com/OpenVPN/openvpn)** [![GitHub stars](https://img.shields.io/github/stars/OpenVPN/openvpn?style=social&color=white)](https://github.com/OpenVPN/openvpn/stargazers)
+### **[openvpn](https://github.com/OpenVPN/openvpn)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenVPN/openvpn?style=social&color=white)](https://github.com/OpenVPN/openvpn/stargazers)
 
 - 📦 **Repository**: [`OpenVPN/openvpn`](https://github.com/OpenVPN/openvpn)
-- 🏷️ **Category**: `Enterprise Virtual Private Network 🔑` | 📜 **License**: `GPL-2.0` | ⭐ **GitHub Stars**: `★ 14,643`
+- 🏷️ **Category**: `Enterprise Virtual Private Network 🔑` | 📜 **License**: `GPL-2.0` | ⭐ **GitHub_Stars**: `★ 14,643`
 - 📝 **Description**: **The industry-standard open-source SSL/TLS VPN daemon.** Securely bridges remote clients and enterprise branch offices directly into private VPC network subnets.
 
 ---
 
-### **[netmaker](https://github.com/gravitl/netmaker)** [![GitHub stars](https://img.shields.io/github/stars/gravitl/netmaker?style=social&color=white)](https://github.com/gravitl/netmaker/stargazers)
+### **[netmaker](https://github.com/gravitl/netmaker)** [![GitHub_Stars](https://img.shields.io/github/stars/gravitl/netmaker?style=social&color=white)](https://github.com/gravitl/netmaker/stargazers)
 
 - 📦 **Repository**: [`gravitl/netmaker`](https://github.com/gravitl/netmaker)
-- 🏷️ **Category**: `WireGuard Multi-Cloud Overlay VPC 🚀` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 11,819`
+- 🏷️ **Category**: `WireGuard Multi-Cloud Overlay VPC 🚀` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 11,819`
 - 📝 **Description**: **Leading open-source platform for WireGuard-based Zero Trust overlay networks.** Delivers kernel-level WireGuard mesh performance, external gateway ingress/egress routing, and cross-cloud VPC bridging.
 
 ---
 
-### **[flannel](https://github.com/flannel-io/flannel)** [![GitHub stars](https://img.shields.io/github/stars/flannel-io/flannel?style=social&color=white)](https://github.com/flannel-io/flannel/stargazers)
+### **[flannel](https://github.com/flannel-io/flannel)** [![GitHub_Stars](https://img.shields.io/github/stars/flannel-io/flannel?style=social&color=white)](https://github.com/flannel-io/flannel/stargazers)
 
 - 📦 **Repository**: [`flannel-io/flannel`](https://github.com/flannel-io/flannel)
-- 🏷️ **Category**: `Container Network Interface (CNI) ☸️` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 9,547`
+- 🏷️ **Category**: `Container Network Interface (CNI) ☸️` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 9,547`
 - 📝 **Description**: **Simple, lightweight overlay network provider for Kubernetes.** Allocates layer 3 network subnets per host using VXLAN, host-gw, or WireGuard encapsulations.
 
 ---
 
-### **[firezone](https://github.com/firezone/firezone)** [![GitHub stars](https://img.shields.io/github/stars/firezone/firezone?style=social&color=white)](https://github.com/firezone/firezone/stargazers)
+### **[firezone](https://github.com/firezone/firezone)** [![GitHub_Stars](https://img.shields.io/github/stars/firezone/firezone?style=social&color=white)](https://github.com/firezone/firezone/stargazers)
 
 - 📦 **Repository**: [`firezone/firezone`](https://github.com/firezone/firezone)
-- 🏷️ **Category**: `Zero Trust Remote Access & WireGuard 🔥` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 9,108`
+- 🏷️ **Category**: `Zero Trust Remote Access & WireGuard 🔥` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 9,108`
 - 📝 **Description**: **Open-source remote access platform built on WireGuard.** Provides secure, identity-aware access controls for connecting remote engineers to internal VPC workloads.
 
 ---
 
-### **[calico](https://github.com/projectcalico/calico)** [![GitHub stars](https://img.shields.io/github/stars/projectcalico/calico?style=social&color=white)](https://github.com/projectcalico/calico/stargazers)
+### **[calico](https://github.com/projectcalico/calico)** [![GitHub_Stars](https://img.shields.io/github/stars/projectcalico/calico?style=social&color=white)](https://github.com/projectcalico/calico/stargazers)
 
 - 📦 **Repository**: [`projectcalico/calico`](https://github.com/projectcalico/calico)
-- 🏷️ **Category**: `Kubernetes Networking & Security 🐅` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 7,383`
+- 🏷️ **Category**: `Kubernetes Networking & Security 🐅` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 7,383`
 - 📝 **Description**: **Enterprise container networking and network security provider.** Delivers high-performance BGP/eBPF pod routing, fine-grained network policy enforcement, and WireGuard in-transit encryption.
 
 ---
 
-### **[frr](https://github.com/FRRouting/frr)** [![GitHub stars](https://img.shields.io/github/stars/FRRouting/frr?style=social&color=white)](https://github.com/FRRouting/frr/stargazers)
+### **[frr](https://github.com/FRRouting/frr)** [![GitHub_Stars](https://img.shields.io/github/stars/FRRouting/frr?style=social&color=white)](https://github.com/FRRouting/frr/stargazers)
 
 - 📦 **Repository**: [`FRRouting/frr`](https://github.com/FRRouting/frr)
-- 🏷️ **Category**: `Open Source IP Routing Suite 🔀` | 📜 **License**: `GPL-2.0` | ⭐ **GitHub Stars**: `★ 4,315`
+- 🏷️ **Category**: `Open Source IP Routing Suite 🔀` | 📜 **License**: `GPL-2.0` | ⭐ **GitHub_Stars**: `★ 4,315`
 - 📝 **Description**: **IP routing protocol suite for Linux and Unix platforms.** Implements BGP, OSPF, RIP, IS-IS, and LDP — used extensively in cloud VPC gateways, BGP router appliances, and SDN fabrics.
 
 ---
 
-### **[ovs](https://github.com/openvswitch/ovs)** [![GitHub stars](https://img.shields.io/github/stars/openvswitch/ovs?style=social&color=white)](https://github.com/openvswitch/ovs/stargazers)
+### **[ovs](https://github.com/openvswitch/ovs)** [![GitHub_Stars](https://img.shields.io/github/stars/openvswitch/ovs?style=social&color=white)](https://github.com/openvswitch/ovs/stargazers)
 
 - 📦 **Repository**: [`openvswitch/ovs`](https://github.com/openvswitch/ovs)
-- 🏷️ **Category**: `Multilayer Virtual Switch 🎛️` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 4,024`
+- 🏷️ **Category**: `Multilayer Virtual Switch 🎛️` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 4,024`
 - 📝 **Description**: **Production-quality multilayer virtual switch.** The software-defined networking foundation for OpenStack, Kubernetes CNIs, and enterprise hypervisors; supports OpenFlow, VXLAN, and GRE.
 
 ---
 
-### **[strongswan](https://github.com/strongswan/strongswan)** [![GitHub stars](https://img.shields.io/github/stars/strongswan/strongswan?style=social&color=white)](https://github.com/strongswan/strongswan/stargazers)
+### **[strongswan](https://github.com/strongswan/strongswan)** [![GitHub_Stars](https://img.shields.io/github/stars/strongswan/strongswan?style=social&color=white)](https://github.com/strongswan/strongswan/stargazers)
 
 - 📦 **Repository**: [`strongswan/strongswan`](https://github.com/strongswan/strongswan)
-- 🏷️ **Category**: `IPsec VPN & Security Gateway 🦅` | 📜 **License**: `GPL-2.0` | ⭐ **GitHub Stars**: `★ 2,999`
+- 🏷️ **Category**: `IPsec VPN & Security Gateway 🦅` | 📜 **License**: `GPL-2.0` | ⭐ **GitHub_Stars**: `★ 2,999`
 - 📝 **Description**: **Open-source IPsec-based VPN solution.** Implements IKEv1/IKEv2 protocols to establish secure, hardware-accelerated site-to-site IPsec tunnels between corporate datacenters and cloud VPCs.
 
 ---
 
-### **[multus-cni](https://github.com/k8snetworkplumbingwg/multus-cni)** [![GitHub stars](https://img.shields.io/github/stars/k8snetworkplumbingwg/multus-cni?style=social&color=white)](https://github.com/k8snetworkplumbingwg/multus-cni/stargazers)
+### **[multus-cni](https://github.com/k8snetworkplumbingwg/multus-cni)** [![GitHub_Stars](https://img.shields.io/github/stars/k8snetworkplumbingwg/multus-cni?style=social&color=white)](https://github.com/k8snetworkplumbingwg/multus-cni/stargazers)
 
 - 📦 **Repository**: [`k8snetworkplumbingwg/multus-cni`](https://github.com/k8snetworkplumbingwg/multus-cni)
-- 🏷️ **Category**: `Multi-Network Interface CNI Plugin 🔌` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 2,958`
+- 🏷️ **Category**: `Multi-Network Interface CNI Plugin 🔌` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 2,958`
 - 📝 **Description**: **Kubernetes CNI plugin enabling multi-homed pods.** Allows attaching multiple physical or virtual network interfaces (SR-IOV, macvlan, OVS) directly to single Kubernetes pods.
 
 ---
 
-### **[submariner](https://github.com/submariner-io/submariner)** [![GitHub stars](https://img.shields.io/github/stars/submariner-io/submariner?style=social&color=white)](https://github.com/submariner-io/submariner/stargazers)
+### **[submariner](https://github.com/submariner-io/submariner)** [![GitHub_Stars](https://img.shields.io/github/stars/submariner-io/submariner?style=social&color=white)](https://github.com/submariner-io/submariner/stargazers)
 
 - 📦 **Repository**: [`submariner-io/submariner`](https://github.com/submariner-io/submariner)
-- 🏷️ **Category**: `Multi-Cluster Kubernetes Networking ⚓` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 2,697`
+- 🏷️ **Category**: `Multi-Cluster Kubernetes Networking ⚓` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 2,697`
 - 📝 **Description**: **Enables direct pod-to-pod and service-to-service networking** across independent Kubernetes clusters running in distinct VPC environments or multi-cloud regions.
 
 ---
 
-### **[plugins](https://github.com/containernetworking/plugins)** [![GitHub stars](https://img.shields.io/github/stars/containernetworking/plugins?style=social&color=white)](https://github.com/containernetworking/plugins/stargazers)
+### **[plugins](https://github.com/containernetworking/plugins)** [![GitHub_Stars](https://img.shields.io/github/stars/containernetworking/plugins?style=social&color=white)](https://github.com/containernetworking/plugins/stargazers)
 
 - 📦 **Repository**: [`containernetworking/plugins`](https://github.com/containernetworking/plugins)
-- 🏷️ **Category**: `Standard CNI Network Plugins 🧩` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 2,579`
+- 🏷️ **Category**: `Standard CNI Network Plugins 🧩` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 2,579`
 - 📝 **Description**: **Reference Container Network Interface (CNI) plugins** maintained by the CNCF, including bridge, macvlan, ipvlan, loopback, portmap, and firewall plugins.
 
 ---
 
-### **[kube-ovn](https://github.com/kubeovn/kube-ovn)** [![GitHub stars](https://img.shields.io/github/stars/kubeovn/kube-ovn?style=social&color=white)](https://github.com/kubeovn/kube-ovn/stargazers)
+### **[kube-ovn](https://github.com/kubeovn/kube-ovn)** [![GitHub_Stars](https://img.shields.io/github/stars/kubeovn/kube-ovn?style=social&color=white)](https://github.com/kubeovn/kube-ovn/stargazers)
 
 - 📦 **Repository**: [`kubeovn/kube-ovn`](https://github.com/kubeovn/kube-ovn)
-- 🏷️ **Category**: `Enterprise OVN-Based Kubernetes CNI 🏢` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 2,399`
+- 🏷️ **Category**: `Enterprise OVN-Based Kubernetes CNI 🏢` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 2,399`
 - 📝 **Description**: **Enterprise-grade Kubernetes CNI powered by Open Virtual Network (OVN).** Brings advanced SDN capabilities—subnet management, static IP allocation, QoS, traffic mirroring, and multi-tenancy—to Kubernetes.
 
 ---
 
-### **[antrea](https://github.com/antrea-io/antrea)** [![GitHub stars](https://img.shields.io/github/stars/antrea-io/antrea?style=social&color=white)](https://github.com/antrea-io/antrea/stargazers)
+### **[antrea](https://github.com/antrea-io/antrea)** [![GitHub_Stars](https://img.shields.io/github/stars/antrea-io/antrea?style=social&color=white)](https://github.com/antrea-io/antrea/stargazers)
 
 - 📦 **Repository**: [`antrea-io/antrea`](https://github.com/antrea-io/antrea)
-- 🏷️ **Category**: `OVS-Native Kubernetes Networking 🐜` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 1,812`
+- 🏷️ **Category**: `OVS-Native Kubernetes Networking 🐜` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 1,812`
 - 📝 **Description**: **Kubernetes networking provider built natively on Open vSwitch (OVS).** Delivers high-performance pod network connectivity and Kubernetes Network Policy execution across Linux and Windows nodes.
 
 ---
 
-### **[neutron](https://github.com/openstack/neutron)** [![GitHub stars](https://img.shields.io/github/stars/openstack/neutron?style=social&color=white)](https://github.com/openstack/neutron/stargazers)
+### **[neutron](https://github.com/openstack/neutron)** [![GitHub_Stars](https://img.shields.io/github/stars/openstack/neutron?style=social&color=white)](https://github.com/openstack/neutron/stargazers)
 
 - 📦 **Repository**: [`openstack/neutron`](https://github.com/openstack/neutron)
-- 🏷️ **Category**: `OpenStack Networking-as-a-Service ☁️` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 1,471`
+- 🏷️ **Category**: `OpenStack Networking-as-a-Service ☁️` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 1,471`
 - 📝 **Description**: **OpenStack cloud networking project.** Provides Network-as-a-Service (NaaS) abstractions for creating virtual networks, subnets, routers, floating IPs, and security groups in private clouds.
 
 ---
 
-### **[ovn](https://github.com/ovn-org/ovn)** [![GitHub stars](https://img.shields.io/github/stars/ovn-org/ovn?style=social&color=white)](https://github.com/ovn-org/ovn/stargazers)
+### **[ovn](https://github.com/ovn-org/ovn)** [![GitHub_Stars](https://img.shields.io/github/stars/ovn-org/ovn?style=social&color=white)](https://github.com/ovn-org/ovn/stargazers)
 
 - 📦 **Repository**: [`ovn-org/ovn`](https://github.com/ovn-org/ovn)
-- 🏷️ **Category**: `Open Virtual Network SDN Abstraction 💡` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub Stars**: `★ 739`
+- 🏷️ **Category**: `Open Virtual Network SDN Abstraction 💡` | 📜 **License**: `Apache-2.0` | ⭐ **GitHub_Stars**: `★ 739`
 - 📝 **Description**: **Open Virtual Network (OVN) logical networking system for Open vSwitch.** Translates high-level logical routers, switches, and ACL rules into OpenFlow flows across virtualized cloud infrastructure.
 
 ---
 
-### **[controller](https://github.com/opendaylight/controller)** [![GitHub stars](https://img.shields.io/github/stars/opendaylight/controller?style=social&color=white)](https://github.com/opendaylight/controller/stargazers)
+### **[controller](https://github.com/opendaylight/controller)** [![GitHub_Stars](https://img.shields.io/github/stars/opendaylight/controller?style=social&color=white)](https://github.com/opendaylight/controller/stargazers)
 
 - 📦 **Repository**: [`opendaylight/controller`](https://github.com/opendaylight/controller)
-- 🏷️ **Category**: `Modular Software-Defined Network Controller 🕹️` | 📜 **License**: `EPL-1.0` | ⭐ **GitHub Stars**: `★ 479`
+- 🏷️ **Category**: `Modular Software-Defined Network Controller 🕹️` | 📜 **License**: `EPL-1.0` | ⭐ **GitHub_Stars**: `★ 479`
 - 📝 **Description**: **Open-source SDN controller framework.** Provides automated, programmable control over software and hardware network switches using OpenFlow and NETCONF protocols.
 
 ---
 
-### **[bird](https://github.com/CZ-NIC/bird)** [![GitHub stars](https://img.shields.io/github/stars/CZ-NIC/bird?style=social&color=white)](https://github.com/CZ-NIC/bird/stargazers)
+### **[bird](https://github.com/CZ-NIC/bird)** [![GitHub_Stars](https://img.shields.io/github/stars/CZ-NIC/bird?style=social&color=white)](https://github.com/CZ-NIC/bird/stargazers)
 
 - 📦 **Repository**: [`CZ-NIC/bird`](https://github.com/CZ-NIC/bird)
-- 🏷️ **Category**: `Internet Routing Daemon 🦅` | 📜 **License**: `GPL-2.0` | ⭐ **GitHub Stars**: `★ 222`
+- 🏷️ **Category**: `Internet Routing Daemon 🦅` | 📜 **License**: `GPL-2.0` | ⭐ **GitHub_Stars**: `★ 222`
 - 📝 **Description**: **Dynamic IP routing daemon** implementing BGP, OSPF, and RIP. Used in cloud internet exchange points (IXPs), container networking control planes, and VPC border router gateways.
 
 ---
@@ -333,7 +333,7 @@ We welcome contributions from cloud engineers, network architects, and the open-
 1. 🍴 **Fork** this repository.
 2. 📝 **Add or update** entries in `README.md` keeping formatting consistent.
    - For **SaaS platforms**: include provider name, company size/valuation, exact starting tier price, exact free tier limit, and key strengths.
-   - For **Open-Source projects**: include repository URL, star badge with `style=social&color=white` linking to `/stargazers`, license, and exact star count position.
+   - For **Open-Source projects**: include repository URL, Stars_Badge with `style=social&color=white` linking to `/stargazers`, license, and exact Stars_Count position.
 3. 🚀 **Submit a Pull Request (PR)** with a clear title and brief explanation of changes.
 
 ---
